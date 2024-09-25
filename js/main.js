@@ -12,26 +12,23 @@ btnDonate.addEventListener("click", function (event) {
   btnDonate.classList.add("bg-btn_bg");
 });
 
-btnHistory.addEventListener('click', function (event) {
+btnHistory.addEventListener("click", function (event) {
   event.preventDefault();
-  historyContainer.classList.add('flex');
-  historyContainer.classList.remove('hidden');
-  donateContainer.classList.add('hidden');
-  donateContainer.classList.remove('flex');
-    btnHistory.classList.add('bg-btn_bg');
-    btnDonate.classList.remove('bg-btn_bg');
-
-})
+  historyContainer.classList.add("flex");
+  historyContainer.classList.remove("hidden");
+  donateContainer.classList.add("hidden");
+  donateContainer.classList.remove("flex");
+  btnHistory.classList.add("bg-btn_bg");
+  btnDonate.classList.remove("bg-btn_bg");
+});
 
 // modal
-const clsModal = document.getElementById('cls-modal');
-const modal = document.getElementById('modal');
-clsModal.addEventListener('click', function () {
-    modal.classList.add('hidden');
-    modal.classList.remove('flex');
-    
-})
-
+const clsModal = document.getElementById("cls-modal");
+const modal = document.getElementById("modal");
+clsModal.addEventListener("click", function () {
+  modal.classList.add("hidden");
+  modal.classList.remove("flex");
+});
 
 let sum = 5500;
 const mainBalance = document.getElementById("main-balance");
@@ -46,8 +43,7 @@ const handleDonation = (inputVal, val, title) => {
     inputVal <= 0 ||
     sum <= 0 ||
     inputVal === "" ||
-    inputVal > sum  
-    
+    inputVal > sum
   ) {
     alert("Invalid Donate Ammount");
   } else {
@@ -64,22 +60,22 @@ const handleDonation = (inputVal, val, title) => {
         `;
   }
 };
-//  first
-const donateBtnOne = function() {
+//  first box
+const donateBtnOne = function () {
   let inputAmount1 = CommonFunction("donation-input-1");
   let title1 = CommonFunction("title-Text-1");
   const inputField1 = Number(CommonFunction("input-box-1").value);
   handleDonation(inputField1, inputAmount1, title1);
 };
-//  second
-const donateBtnTwo = function()  {
+//  second box
+const donateBtnTwo = function () {
   let inputAmount2 = CommonFunction("donation-input-2");
   let title2 = CommonFunction("title-Text-2");
   const inputField2 = Number(CommonFunction("input-box-2").value);
   handleDonation(inputField2, inputAmount2, title2);
 };
-//  third
-const donateBtnThree = function() {
+//  third box
+const donateBtnThree = function () {
   let inputAmount3 = CommonFunction("donation-input-3");
   let title3 = CommonFunction("title-Text-3");
   const inputField3 = Number(CommonFunction("input-box-3").value);

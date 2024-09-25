@@ -26,7 +26,11 @@
       <div class="bg-[#f9d08a1f] py-6 pb-12 w-full">
         <div class="navbar container mx-auto">
           <div class="navbar-start">
-            <a class="btn btn-ghost md:text-xl md:px-6 bg-[#B4F461]" href="./index.html">Home</a>
+            <a
+              class="btn btn-ghost md:text-xl md:px-6 bg-[#B4F461]"
+              href="./index.html"
+              >Home</a
+            >
           </div>
           <div class="navbar-center">
             <div
@@ -47,64 +51,95 @@
       <!-- main nav -->
     </header>
     <!-- header section end here -->
-     <!-- main section  -->
-      <main class="container mx-auto ">
-        <div class="flex items-center gap-x-2 my-8">
-          <h3 class="text-xl font-bold md:text-2xl xl:text-3xl ml-4">Important FAQ</h3>
-        <img class="w-6 md:w-8" src="./assets/icons8-question-50.png" alt="">
-        </div>
-        <!--  -->
-        <div class="space-y-3 mx-4 mb-24">
- <div class="collapse collapse-arrow border-2 rounded-md">
-  <input type="radio" name="my-accordion-2" />
-  <div class="collapse-title text-xl font-medium">
-    <h3 class="text-xl md:text-2xl">what is the Document Object Model (DOM)?</h3>
-  </div>
-  <div class="collapse-content">
-    <p class="text-xl ml-4">The Document Object Model (DOM) is a programming interface for web document. It represents the page so that programs can change the document structure, style, and content.</p>
-  </div>
-</div>
-
-<div class="collapse collapse-arrow border-2 rounded-md">
-  <input type="radio" name="my-accordion-2" />
-  <div class="collapse-title text-xl font-medium">
-    <h3 class="text-xl md:text-2xl">How do you select on element from the DOM?</h3>
-  </div>
-  <div class="collapse-content">
-    <p class="text-xl ml-4">We can select an element from the DOM in many ways using Methods, like Document.GetElementById(), Document.GetElementsByTagName(), Document.GetElementsByClassName(), document.querySelector(), or Document.querySelectorAll() atc.</p>
-  </div>
-</div>
-
-<div class="collapse collapse-arrow border-2 rounded-md">
-  <input type="radio" name="my-accordion-2" />
-  <div class="collapse-title text-xl font-medium">
-    <h3 class="text-xl md:text-2xl">What is event delegation in the context of the DOM. and why is it useful?</h3>
-  </div>
-  <div class="collapse-content">
-    <p class="text-xl ml-4">Event delegation is a design pattern in JavaScript used to efficiently manage and handle events on multiple child elements by attaching a single event listener to a common ancestor element. <br> and it useful because it helps us create dynamic and interactive website by modifying the content of web page element.
-
-    </p>
-  </div>
-</div>
-<div class="collapse collapse-arrow border-2 rounded-md">
-  <input type="radio" name="my-accordion-2" />
-  <div class="collapse-title text-xl font-medium">
-    <h3 class="text-xl md:text-2xl">How do you manipulate on element atribues and styles using the DOM?</h3>
-  </div>
-  <div class="collapse-content">
-    <p class="text-xl ml-4">To manipulate on element atribues and styles using the DOM, we can use JavaScript to access and modify both attributes and CSS of HTML element. <br>
-    1. we can use Methods like : getAttribute(), setAttribute(), and removeAttribute() to interact element attributes. <br>
-  2. we can directly modify an elements style properly to change its inline CSS styles. like Set Style: element.style.properly = "value", Add class: element.classList.add("className") atc.</p>
-  </div>
-</div>
-
+    <!-- main section  -->
+    <main class="container mx-auto">
+      <div class="flex items-center gap-x-2 my-8">
+        <h3 class="text-xl font-bold md:text-2xl xl:text-3xl ml-4">
+          Important FAQ
+        </h3>
+        <img class="w-6 md:w-8" src="./assets/icons8-question-50.png" alt="" />
+      </div>
+      <!--  -->
+      <div class="space-y-3 mx-4 mb-24">
+        <div class="collapse collapse-arrow border-2 rounded-md">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">
+            <h3 class="text-xl md:text-2xl">
+              what is the Document Object Model (DOM)?
+            </h3>
+          </div>
+          <div class="collapse-content">
+            <p class="text-xl ml-4">
+              The Document Object Model (DOM) is a programming interface for web
+              document. It represents the page so that programs can change the
+              document structure, style, and content.
+            </p>
+          </div>
         </div>
 
-      </main>
-      <footer class="bg-[#f9d08a1f] h-[100px] mt-24 z-40 w-full fixed bottom-0">
+        <div class="collapse collapse-arrow border-2 rounded-md">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">
+            <h3 class="text-xl md:text-2xl">
+              How do you select on element from the DOM?
+            </h3>
+          </div>
+          <div class="collapse-content">
+            <p class="text-xl ml-4">
+              We can select an element from the DOM in many ways using Methods,
+              like Document.GetElementById(), Document.GetElementsByTagName(),
+              Document.GetElementsByClassName(), document.querySelector(), or
+              Document.querySelectorAll() atc.
+            </p>
+          </div>
+        </div>
 
-      </footer>
-      <!-- 
+        <div class="collapse collapse-arrow border-2 rounded-md">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">
+            <h3 class="text-xl md:text-2xl">
+              What is event delegation in the context of the DOM. and why is it
+              useful?
+            </h3>
+          </div>
+          <div class="collapse-content">
+            <p class="text-xl ml-4">
+              Event delegation is a design pattern in JavaScript used to
+              efficiently manage and handle events on multiple child elements by
+              attaching a single event listener to a common ancestor element.
+              <br />
+              and it useful because it helps us create dynamic and interactive
+              website by modifying the content of web page element.
+            </p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow border-2 rounded-md">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">
+            <h3 class="text-xl md:text-2xl">
+              How do you manipulate on element atribues and styles using the
+              DOM?
+            </h3>
+          </div>
+          <div class="collapse-content">
+            <p class="text-xl ml-4">
+              To manipulate on element atribues and styles using the DOM, we can
+              use JavaScript to access and modify both attributes and CSS of
+              HTML element. <br />
+              1. we can use Methods like : getAttribute(), setAttribute(), and
+              removeAttribute() to interact element attributes. <br />
+              2. we can directly modify an elements style properly to change its
+              inline CSS styles. like Set Style: element.style.properly =
+              "value", Add class: element.classList.add("className") atc.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="bg-[#f9d08a1f] h-[100px] mt-24 z-40 w-full fixed bottom-0"
+    ></footer>
+    <!-- 
         donate pop-up 
        <div id="modal" class="bg-[rgba(0,0,0,0.1) hidden shadow w-[100%] h-[100%]  fixed  top-20 z-40 justify-center ">
         <div class="bg-white w-[400px] xl:w-[500px] h-[250px] xl:h-[300px] transform translate-y-[100px] rounded-xl flex flex-col justify-center items-center gap-4 shadow p-5 capitalize">
