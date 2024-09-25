@@ -35,20 +35,15 @@
     </script>
     <!-- favicon -->
      <link rel="shortcut icon" href="./assets/icons8-donate-48.png" type="image/x-icon">
-     <!-- <style>
-      *{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-     </style> -->
+    
+     <!-- <nav  class="sticky top-0 left-0 z-40 backdrop:filter backdrop:blur-lg"> -->
   </head>
-  <body class="font-lexend bg-[#FFFFFF]">
+  <body class="font-lexend bg-[#FFFFFF] ">
     <!-- header section start here -->
-    <header>
-        <nav>
+    <header class="sticky top-0 z-40">
+        <nav >
         <!-- main nav -->
-        <div class="bg-[#f9d08a2c] py-6 pb-12 w-full">
+        <div class="bg-[#fed7aa] py-6 pb-12 w-full">
             <div class="navbar container mx-auto">
   <div class="navbar-start">
     
@@ -71,10 +66,13 @@
 </div>
         <!-- main nav -->
          <!-- button nav -->
-         <div class="flex justify-center items-center mt-20 mb-6 gap-x-3">
-            <button id="donate-btn" class="btn btn-outline  bg-btn_bg text-xl">Donation</button>
-            <button id="history-btn" class="btn btn-outline">History</button>
-         </div>
+          
+
+            <div class="flex justify-center items-center bg-white mb-6 gap-x-3 py-6">
+              <button id="donate-btn" class="btn btn-outline  bg-btn_bg text-xl">Donation</button>
+              <button id="history-btn" class="btn btn-outline">History</button>
+            </div>
+          
          <!-- button nav -->
       </nav>
       
@@ -142,21 +140,21 @@
        <div class=" inline-block rounded-lg px-2  bg-[#d3c4c476]">
         <div class="flex items-center space-x-2 p-2">
             <img src="./assets/coin.png" alt="">
-            <span  id="donation-input-1" class="font-medium">0</span> <span class="font-medium">BDT</span>
+            <span  id="donation-input-2" class="font-medium">0</span> <span class="font-medium">BDT</span>
       
         </div>
     </div>
 
-    <h3 id="title-Text-1" class="text-lg 2xl:text-2xl font-bold my-4">Donate for Flood Relief in Feni,Bangladesh</h3>
+    <h3 id="title-Text-2" class="text-lg 2xl:text-2xl font-bold my-4">Donate for Flood Relief in Feni,Bangladesh</h3>
 
     <p class="leading-7 2xl:text-lg 2xl:leading-8 font-light"> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.
       May Allah Ta'ala grant us all patience in these dangers, many times He gives us danger to test us so that we can return from the state of sin, may Allah Ta'ala protect us all from all kinds of dangers, we should  - To come forward for people's help at all times, then only if we are in any danger, other people will also come forward to help us.
 
     </p>
        
-        <input id="input-box-1"  type="text" placeholder="Write Donation Amount" class="input input-bordered w-full mt-6 h-16 outline-none" />
+        <input id="input-box-2"  type="text" placeholder="Write Donation Amount" class="input input-bordered w-full mt-6 h-16 outline-none" />
         <div class="form-control mt-6 ">
-          <button onclick="donateBtnOne()" class="btn  bg-[#B4F461] hover:bg-[#B4F461] text-black text-lg  font-semibold h-16">Donate Now</button>
+          <button onclick="donateBtnTwo()" class="btn  bg-[#B4F461] hover:bg-[#B4F461] text-black text-lg  font-semibold h-16">Donate Now</button>
         </div>
     </div>
   </div>
@@ -175,21 +173,21 @@
        <div class=" inline-block rounded-lg px-2  bg-[#d3c4c476]">
         <div class="flex items-center space-x-2 p-2">
             <img src="./assets/coin.png" alt="">
-            <span  id="donation-input-1" class="font-medium">0</span> <span class="font-medium">BDT</span>
+            <span  id="donation-input-3" class="font-medium">0</span> <span class="font-medium">BDT</span>
       
         </div>
     </div>
 
-    <h3 id="title-Text-1" class="text-lg 2xl:text-2xl font-bold my-4">Aid for Injured in the Quota Movement</h3>
+    <h3 id="title-Text-3" class="text-lg 2xl:text-2xl font-bold my-4">Aid for Injured in the Quota Movement</h3>
 
     <p class="leading-7 2xl:text-lg 2xl:leading-8 font-light"> The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.
       And in the future, we should try to follow the principles of justice, we should refrain from all kinds of bad deeds, we should not kill any person without any reason, we should remember that after death, all our deeds will be accounted for, so we should do everything we do.  Fear of Allah, and if you don't fear Allah, chaos will not be removed from the society, fights will continue, may Allah grant us the grace to understand.
 
     </p>
        
-        <input id="input-box-1"  type="text" placeholder="Write Donation Amount" class="input input-bordered w-full mt-6 h-16 outline-none" />
+        <input id="input-box-3"  type="text" placeholder="Write Donation Amount" class="input input-bordered w-full mt-6 h-16 outline-none" />
         <div class="form-control mt-6 ">
-          <button onclick="donateBtnOne()" class="btn  bg-[#B4F461] hover:bg-[#B4F461] text-black text-lg  font-semibold h-16">Donate Now</button>
+          <button onclick="donateBtnThree()" class="btn  bg-[#B4F461] hover:bg-[#B4F461] text-black text-lg  font-semibold h-16">Donate Now</button>
         </div>
     </div>
   </div>
@@ -201,7 +199,7 @@
     <!-- main section end here -->
      <section>
         <!-- history section start here -->
-           <div id="history-container" class="w-[80%] m-auto   flex-col justify-center items-start hidden gap-5">           </div>
+           <div id="history-container" class="w-[80%] h-[60vh] m-auto   flex-col justify-start items-start hidden gap-5">           </div>
 
           <!-- history section end here -->
      </section>
